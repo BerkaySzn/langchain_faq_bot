@@ -1,0 +1,8 @@
+Q: What are your opening hours?
+A: We are open from 9 AM to 5 PM, Monday to Friday.
+
+Q: Where are you located?
+A: We are located in Istanbul, Turkey.
+
+Q: How can I contact support?
+A: You can email us at support@example.com.
