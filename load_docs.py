@@ -1,4 +1,4 @@
-from langchain.document_loaders import TextLoader # Load text documents from a path
+from langchain_community.document_loaders import TextLoader # Load text documents from a path
 from langchain.text_splitter import CharacterTextSplitter # Split texts into chunks
 
 def load_documents(path: str): #Takes the path of our document
