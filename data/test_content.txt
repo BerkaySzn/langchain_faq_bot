@@ -1,0 +1,69 @@
+# Company Information
+
+## About Us
+TechCorp is a leading technology company founded in 2010. We specialize in artificial intelligence and machine learning solutions. Our headquarters is located in San Francisco, California.
+
+## Office Locations
+- San Francisco (HQ): 123 Tech Street, Suite 100
+- New York: 456 Innovation Avenue
+- London: 789 Digital Road
+
+## Working Hours
+Our offices are open Monday through Friday, 9:00 AM to 6:00 PM local time. We observe all major holidays and provide flexible working arrangements for our employees.
+
+## Contact Information
+For general inquiries: info@techcorp.com
+For technical support: support@techcorp.com
+Phone: +1 (555) 123-4567
+
+## Products and Services
+
+### AI Solutions
+1. Natural Language Processing
+   - Text analysis
+   - Sentiment analysis
+   - Language translation
+   - Chatbot development
+
+2. Machine Learning
+   - Predictive analytics
+   - Pattern recognition
+   - Data classification
+   - Recommendation systems
+
+### Cloud Services
+- Infrastructure as a Service (IaaS)
+- Platform as a Service (PaaS)
+- Software as a Service (SaaS)
+
+## Pricing
+Our pricing structure is flexible and based on your needs:
+- Basic Plan: $99/month
+- Professional Plan: $299/month
+- Enterprise Plan: Custom pricing
+
+## Technical Requirements
+Minimum system requirements for our software:
+- CPU: 4 cores or better
+- RAM: 8GB minimum
+- Storage: 50GB free space
+- OS: Windows 10/11, macOS 10.15+, or Linux
+
+## Support Policy
+We offer 24/7 technical support for all enterprise customers. Standard support hours for other plans are Monday-Friday, 8:00 AM to 8:00 PM EST.
+
+## FAQ
+Q: How do I get started with your services?
+A: Contact our sales team at sales@techcorp.com to schedule a demo.
+
+Q: Do you offer a free trial?
+A: Yes, we offer a 14-day free trial for all our services.
+
+Q: What payment methods do you accept?
+A: We accept all major credit cards, PayPal, and bank transfers.
+
+## Recent Updates
+- Version 2.1 released on March 15, 2024
+- New API endpoints added
+- Improved performance optimization
+- Enhanced security features 

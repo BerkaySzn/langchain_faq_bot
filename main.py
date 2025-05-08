@@ -3,9 +3,12 @@ from vector_store import create_vector_store
 from qa_chain import create_qa_chain
 
 
-docs = load_documents("C:/Users/BERKAY/Desktop/langchain_test.txt")
-vector_store = create_vector_store(docs)
 
+
+
+
+docs = load_documents("data/test_content.txt")
+vector_store = create_vector_store(docs)
 
 qa_chain = create_qa_chain(vector_store)
 
