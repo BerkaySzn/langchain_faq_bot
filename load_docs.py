@@ -1,21 +1,36 @@
-from langchain_community.document_loaders import TextLoader, PDFLoader, Docx2txtLoader
+from langchain_community.document_loaders import TextLoader, Docx2txtLoader
+from langchain_community.document_loaders import PyPDFLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 import os
 
+#This function load_documents(path):
+
+    #Loads a document file (.pdf, .docx, or .txt)
+
+    #Splits its content into manageable chunks
+
+    #Adds metadata to each chunk
+
+    #Returns a list of text chunks
+
+
 def load_documents(path: str):
-    # Determine file type and load accordingly
-    file_extension = os.path.splitext(path)[1].lower()
+
+    file_extension = os.path.splitext(path)[1].lower() #'data/file.csv' → ('data/file', '.csv')
     
     if file_extension == '.pdf':
-        loader = PDFLoader(path)
+        loader = PyPDFLoader(path)
     elif file_extension == '.docx':
         loader = Docx2txtLoader(path)
     else:  # Default to text loader for .txt and other files
         loader = TextLoader(path)
     
-    documents = loader.load()
+    documents = loader.load() #Reads the document and returns it in a format that LangChain can work with.
     
-    # Use recursive character splitter for all document types
+    # LangChain needs your documents in a specific format (its own Document objects). 
+    # These loaders abstract away the format differences so you can work with any document type seamlessly.
+
+
     text_splitter = RecursiveCharacterTextSplitter(
         # Split by these characters in order of preference
         separators=["\n\n", "\n", ".", "!", "?", ",", " ", ""],
